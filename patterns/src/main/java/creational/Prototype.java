@@ -2,7 +2,8 @@ package creational;
 
 
 /** https://medium.com/@thecodebean/prototype-design-pattern-implementation-in-java-b4b900f1ad9a */
-public class Prototype {
+public class
+Prototype {
 
     public static void main(String[] args) {
         // Create prototype sheep

@@ -1,9 +1,7 @@
 package creational;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
-import lombok.Setter;
+import lombok.ToString;
 
 /**
  * https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java
@@ -16,10 +14,12 @@ public class Builder {
                 .setBluetoothEnabled(true)
                 .setGraphicsCardEnabled(true)
                 .build();
+        System.out.println(computer);
     }
 }
 
 @Getter
+@ToString
 class Computer {
 
     // required parameters
