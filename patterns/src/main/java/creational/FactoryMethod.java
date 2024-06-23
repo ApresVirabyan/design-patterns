@@ -1,6 +1,9 @@
 package creational;
 
-/** https://javarush.com/groups/posts/2370-pattern-proektirovanija-factory */
+/**
+ *
+ * https://javarush.com/groups/posts/2370-pattern-proektirovanija-factory
+ * */
 public class FactoryMethod {
     public static void main(String[] args) {
 

@@ -1,7 +1,9 @@
 package structural;
 
-/** Динамическое добавление новых обязанностей обьекту
- *  в качестве альтернативы наследованию. */
+/**
+ *  Динамическое добавление новых обязанностей обьекту
+ *  в качестве альтернативы наследованию.
+ */
 public class Decorator {
     public static void main(String[] args) {
         Coder senior = new SeniorJavaCoder(new JavaCoder());

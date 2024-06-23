@@ -4,6 +4,9 @@ import lombok.Getter;
 import lombok.ToString;
 
 /**
+ * Используется для пошагового конструирования сложных объектов
+ * когда объект имеет множество опциональных параметров или требует сложной инициализации.
+ *
  * https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java
  */
 

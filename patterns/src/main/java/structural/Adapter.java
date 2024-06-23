@@ -1,6 +1,9 @@
 package structural;
 
-
+/***
+ * Позволяет интегрировать классы с несовместимыми интерфейсами без изменения их исходного кода.
+ *
+ */
 public class Adapter {
     public static void main(String[] args) {
         AmericanSocket americanSocket = new SimpleAmericanSocket();
